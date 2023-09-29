@@ -12,7 +12,7 @@ package java.warmup1;
  * sleepIn(false, true) → true
  */
 
-class sleepIn {
+public class sleepIn {
     public boolean sleepIn(boolean weekday, boolean vacation) {
         return !weekday || vacation;
       }
