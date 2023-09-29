@@ -12,14 +12,12 @@ package java.warmup1;
  */
 
 public class posNeg {
-    public boolean posNeg(int a, int b, boolean negative) {
-        switch(String.valueOf(negative)) {
-          case "true":
-            return (a < 0 && b < 0);
-          case "false":
-            return (a < 0 && b > 0) || (a > 0 && b < 0);
-          default:
-            return false;
-        }
-    }    
+  public boolean posNeg(int a, int b, boolean negative) {
+    if (negative) {
+    return (a < 0 && b < 0);
+    }
+    else {
+      return ((a < 0 && b > 0) || (a > 0 && b < 0));
+    }
+  }  
 }
