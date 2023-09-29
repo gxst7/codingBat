@@ -12,7 +12,7 @@ package java.warmup1;
  * front3("abc") → "abcabcabc"
  */
 
-public class front3 {
+public class Front3 {
     public String front3(String str) {
         return str.length() < 3 
           ? str + str + str 

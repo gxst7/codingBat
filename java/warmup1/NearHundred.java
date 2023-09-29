@@ -11,7 +11,7 @@ package java.warmup1;
  * nearHundred(89) → false
  */
 
-public class nearHundred {
+public class NearHundred {
     public boolean nearHundred(int n) {
         return Math.abs(n - 100) <= 10 || Math.abs(n - 200) <= 10;
     }

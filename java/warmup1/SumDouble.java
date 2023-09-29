@@ -11,7 +11,7 @@ package java.warmup1;
  * sumDouble(2, 2) → 8
  */
 
-public class sumDouble {
+public class SumDouble {
     public int sumDouble(int a, int b) {
         return a == b ? 2 * (a + b) : a + b;
       }    

@@ -11,7 +11,7 @@ package java.warmup1;
  * posNeg(-4, -5, true) → true
  */
 
-public class posNeg {
+public class PosNeg {
   public boolean posNeg(int a, int b, boolean negative) {
     if (negative) {
     return (a < 0 && b < 0);

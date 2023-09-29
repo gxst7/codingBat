@@ -12,7 +12,7 @@ package java.warmup1;
  * parrotTrouble(false, 6) → false
  */
 
-public class parrotTrouble {
+public class ParrotTrouble {
     public boolean parrotTrouble(boolean talking, int hour) {
         return talking && ((hour >= 0 && hour < 7) || (hour > 20 && hour <= 23));
     }

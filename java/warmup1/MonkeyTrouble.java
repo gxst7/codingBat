@@ -12,7 +12,7 @@ package java.warmup1;
  * monkeyTrouble(true, false) → false
  */
 
-public class monkeyTrouble  {
+public class MonkeyTrouble  {
     public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
         return !(aSmile ^ bSmile);
       }

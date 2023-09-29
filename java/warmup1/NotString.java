@@ -12,7 +12,7 @@ package java.warmup1;
  * notString("not bad") → "not bad"
  */
 
-public class notString {
+public class NotString {
     public String notString(String str) {
         return str.startsWith("not") ? str : "not " + str;
     }

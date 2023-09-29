@@ -12,7 +12,7 @@ package java.warmup1;
  * missingChar("kitten", 4) → "kittn"
  */
 
-public class missingChar {
+public class MissingChar {
     public String missingChar(String str, int n) {
         return str.substring(0, n) + str.substring(n + 1, str.length());
     }
