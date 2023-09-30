@@ -10,7 +10,7 @@ package java.warmup1;
  * intMax(3, 2, 1) → 3
  */
 
-public class intMax {
+public class IntMax {
     public int intMax(int a, int b, int c) {
         int largest = a;
         if (b > largest) {
